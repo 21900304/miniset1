@@ -22,7 +22,7 @@ int main(){
                 else if(menu == 3) updateProduct(d);
                 else if(menu == 4) deleteProduct(d);
                 else if(menu == 5) saveProduct(d,index);
-               // else if(menu == 6) loadProduct(d,index);
+                else if(menu == 6) loadProduct(d,index);
                 else if(menu == 7) sreachProduct(d,index);
         }
         printf("종료됨");

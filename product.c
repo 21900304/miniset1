@@ -81,7 +81,7 @@ void saveProduct(Product *p, int count){
 
         fclose(fp);
         printf("저장됨!\n");
-       /// printf("\n");
+        printf("\n");
 }
 void loadProduct(Product *p,int count){
         FILE *fp;
