@@ -95,7 +95,7 @@ void loadProduct(Product *p,int count){
                 fscanf(fp,"%d",&p[i].num);
         fclose(fp);
         printf("로딩 됨\n");
-        ///printf("\n");
+        printf("\n");
 }
 
 void sreachProduct(Product *p,int count){
